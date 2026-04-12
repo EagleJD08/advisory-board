@@ -1,0 +1,15 @@
+{
+  "name": "EagleJD08",
+  "owner": { "name": "Juan Minoprio" },
+  "metadata": {
+    "description": "Juan Minoprio's Claude Code plugins — AI advisory board and marketing tools"
+  },
+  "plugins": [
+    {
+      "name": "advisory-board",
+      "source": "./plugins/advisory-board",
+      "description": "6-persona AI advisory board that stress-tests your decisions before you commit.",
+      "version": "1.0.0"
+    }
+  ]
+}

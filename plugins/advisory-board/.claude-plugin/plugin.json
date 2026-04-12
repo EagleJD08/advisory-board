@@ -1,0 +1,7 @@
+{
+  "name": "advisory-board",
+  "version": "1.0.0",
+  "description": "6-persona AI advisory board that stress-tests your decisions before you commit",
+  "author": { "name": "Juan Minoprio" },
+  "license": "MIT"
+}
