@@ -2,6 +2,10 @@
 
 **Stress-test your decisions with a 6-persona AI advisory board.**
 
+<p align="center">
+  <img src="./assets/cover.svg" alt="Advisory Board — six advisors orbit a single decision. Five vote ship, one dissents." width="640">
+</p>
+
 A single plugin that takes your decision, question, or proposal and runs it through 6 independent advisors — PM, CMO, CTO, CPO, Operations, and Devil's Advocate. Each evaluates from their distinct lens. You get structured feedback from all six, plus a board synthesis that surfaces the key tension and the single question you need to answer before committing.
 
 ---
@@ -16,12 +20,34 @@ Claude Code is Anthropic's free CLI that runs Claude directly in your terminal. 
 
 ## Install
 
+Two ways. Pick whichever you trust more.
+
+### Option 1 — Plugin install (recommended, one command)
+
+Inside Claude Code (type these in the Claude Code chat, not a separate terminal):
+
 ```
 /plugin marketplace add EagleJD08/advisory-board
 /plugin install advisory-board@EagleJD08
 ```
 
-Two commands. No Terminal required beyond what Claude Code already has.
+To update later: `/plugin update advisory-board@EagleJD08`
+
+### Option 2 — Manual install (inspect the source first)
+
+If you want to read every file before anything touches your machine:
+
+```bash
+git clone https://github.com/EagleJD08/advisory-board.git
+cd advisory-board
+
+# Copy the skill into your personal Claude Code directory
+mkdir -p ~/.claude/skills/advisory-board
+cp plugins/advisory-board/skills/advisory-board/SKILL.md ~/.claude/skills/advisory-board/
+cp plugins/advisory-board/skills/advisory-board/config.default.md ~/.claude/skills/advisory-board/
+```
+
+Then restart Claude Code. The skill will load from your user directory.
 
 ---
 
