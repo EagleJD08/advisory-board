@@ -50,7 +50,7 @@ Collect 5 answers — ask one at a time. Wait for each response before asking th
 
 After collecting all 5 answers:
 1. Synthesize 6 board member personas calibrated to their context. Use the default board structure as a base, but adjust each advisor's framing, examples, and challenge style to reflect the user's industry, stage, and stated challenges. Make each persona vivid and specific.
-2. Write the complete config to `~/.claude/data/advisory-board/config.md` using the format defined in `config.default.md` (same schema, user values substituted).
+2. Ensure the data directory exists: run `mkdir -p ~/.claude/data/advisory-board` before writing. Then write the complete config to `~/.claude/data/advisory-board/config.md` using the format defined in `config.default.md` (same schema, user values substituted).
 3. Confirm: "Setup complete, [name]! Your board is now calibrated for [company] at the [stage] stage. Run `/advisory-board:advisory-board [your decision or question]` to bring them in."
 
 ---
