@@ -27,18 +27,18 @@ Two ways. Pick whichever you trust more.
 Inside Claude Code (type these in the Claude Code chat, not a separate terminal):
 
 ```
-/plugin marketplace add EagleJD08/advisory-board
-/plugin install advisory-board@EagleJD08
+/plugin marketplace add JuanMinoprio/advisory-board
+/plugin install advisory-board@JuanMinoprio
 ```
 
-To update later: `/plugin update advisory-board@EagleJD08`
+To update later: `/plugin update advisory-board@JuanMinoprio`
 
 ### Option 2 — Manual install (inspect the source first)
 
 If you want to read every file before anything touches your machine:
 
 ```bash
-git clone https://github.com/EagleJD08/advisory-board.git
+git clone https://github.com/JuanMinoprio/advisory-board.git
 cd advisory-board
 
 # Copy the skill into your personal Claude Code directory
@@ -70,7 +70,7 @@ This walks you through 5 questions and calibrates the board to your specific com
 **To update:**
 
 ```
-/plugin update advisory-board@EagleJD08
+/plugin update advisory-board@JuanMinoprio
 ```
 
 ---
